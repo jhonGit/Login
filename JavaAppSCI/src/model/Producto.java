@@ -14,7 +14,7 @@ public class Producto {
     private int precio;
     private int codigo;
     String descripcion;
-    
+    private String name;
     public Producto(){}
     
     public Producto(int price,int code,String description){
@@ -48,6 +48,12 @@ public class Producto {
         this.descripcion = descripcion;
     }
     
-    
+     public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
     
 }
